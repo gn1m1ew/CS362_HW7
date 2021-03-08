@@ -11,10 +11,10 @@ def leapyear(year):
 
 	# main function of checking leap year
 	if(year % 4 == 0 and year % 100 != 0 or year % 400 == 0):
-		print(year, "is a leap year!")
+		return ("It is a leap year!")
 	else:
-		print(year, "is not a leap year!")
+		return ("It is not a leap year!")
 
 # print result
-year = 2020
-leapyear(year)
+# year = 2020
+# print(leapyear(year))
