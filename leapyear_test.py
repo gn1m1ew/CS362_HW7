@@ -1,6 +1,12 @@
+# Name: Ming Wei
+# Course: CS 362
+# Description: leap year test
+# Due: 3/7/2021
+
 import leapyear
 import unittest
 
+# test first
 class TestCase(unittest.TestCase):
     def testleap1(self):
         self.assertEqual(leapyear.leapyear(2020), "It is a leap year!")

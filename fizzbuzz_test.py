@@ -1,3 +1,8 @@
+# Name: Ming Wei
+# Course: CS 362
+# Description: fizzbuzz test
+# Due: 3/7/2021
+
 import fizzbuzz
 import unittest
 
