@@ -6,4 +6,4 @@ class TestCase(unittest.TestCase):
 		self.assertEqual(test_first_leapyear_implementation.leapyear(2020), "It is a leap year!")
 
 if __name__ == '__main__':
-	unittest.main()
+	unittest.main(verbosity=2)
