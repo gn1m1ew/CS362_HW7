@@ -6,6 +6,10 @@
 import leapyear
 import unittest
 
+class FirstTestCase(unittest.TestCase):
+    def testleap0(self):
+        self.assertEqual(leapyear.leapyear(2012), "It is a leap year!")
+
 # test first
 class TestCase(unittest.TestCase):
     def testleap1(self):
